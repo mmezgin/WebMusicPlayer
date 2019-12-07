@@ -26,16 +26,38 @@ margin: 40px;
     margin-top: 75px;
     margin-left: 20px;;
 }
-.leftTexts:hover{
+.login:hover{
+    color:white;
+    color: #ffffff;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 0px 6px ;
+}
+.hot{
+   
+}
+.hot:hover{
  /*   color:white;*/
- color:white;
- color: #eeeeee;
+ color:red;
+ color: #aa0000;
  font-family: "League Gothic", Impact, sans-serif;
  line-height: 0.5em;
  letter-spacing: 0.02em;
  text-shadow: 0px 0px 6px ;
 
+
 }
+.trending:hover{
+    top:0px;
+    color:orangered;
+ color: #aa5200;
+ font-family: "League Gothic", Impact, sans-serif;
+ line-height: 0.5em;
+ letter-spacing: 0.02em;
+ text-shadow: 0px 0px 6px ;
+}
+
 
 
 #a1{
