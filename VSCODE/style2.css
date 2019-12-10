@@ -26,12 +26,12 @@ margin: 40px;
     margin-top: 75px;
     margin-left: 20px;;
 }
-.login{
-    color:rgb(21, 124, 0);
+.cart{
+    color:rgb(150, 1, 150);
 }
-.login:hover{
-    color:rgb(21, 124, 0);
-    color: #1d7c00;
+.cart:hover{
+    color:rgb(150, 1, 150);
+    color: #7c0072;
     font-family: "League Gothic", Impact, sans-serif;
     line-height: 0.5em;
     letter-spacing: 0.02em;
