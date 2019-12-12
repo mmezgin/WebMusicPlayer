@@ -1,6 +1,6 @@
 body {  
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(255,0,28,1) 116%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(94,94,94,1) 116%);
     margin: 40px;
   }
   
@@ -91,7 +91,7 @@ body {
   }
   
   .icon h1 {
-
+  
     padding-top: 5px;
     padding-left: 40px;
     font-size: 100px;
@@ -214,16 +214,16 @@ body {
       color:rgb(255, 255, 255);
       font-size: 24px;
       font-style: oblique;
-
+  
   }
- .durations{
+  .durations{
      margin-left: auto;
      margin-right: 0;
      color:white;
      text-align: right;
      font-size: 18px;
- }
-.ss{
+  }
+  .ss{
   
   display: -ms-grid;
   display: grid;
@@ -232,84 +232,74 @@ body {
   grid-template-columns: minmax(160px, 1fr) 160px;
   font-size: 20px;
   margin-right: 0px;
-}
-
-.right{
+  }
+  
+  .right{
   text-align: right;
   margin-right: 0px;
-
-}
-
-
+  
+  }
+  
+  
   #s1:hover{
-      color:rgb(0, 0, 0);
-      outline: 1px hidden rgba(255, 0, 0, 0.404);
-      outline-offset: -1px;
-      background-color:rgba(255, 0, 0, 0.404) ;
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
   #s2:hover{
     color:rgb(0, 0, 0);
-    outline: 1px hidden rgba(255, 0, 0, 0.404);
     outline-offset: -1px;
-    background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s3:hover{
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s3:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s4:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s5:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s6:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s7:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s8:hover{
   color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
   outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s4:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s5:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s6:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s7:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s8:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s9:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
-#s10:hover{
-  color:rgb(0, 0, 0);
-  outline: 1px hidden rgba(255, 0, 0, 0.404);
-  outline-offset: -1px;
-  background-color:rgba(255, 0, 0, 0.404) ;
-}
+  background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s9:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
+  #s10:hover{
+    color:rgb(0, 0, 0);
+    outline-offset: -1px;
+    background-color:rgba(65, 65, 65, 0.404) ;
+  }
   #rightSide{
       color:white;
       margin-left: 80px;
       margin-top: 20px;
       margin-bottom: 200px;
       margin-right:10px;
-
+  
       border: none;
-
+  
     font: 24px/36px sans-serif;
     width: 800px;
     height: 470px;
@@ -321,17 +311,17 @@ body {
     }
     
     ::-webkit-scrollbar-track {
-    border: 1px solid orangered;
+    border: 1px solid rgb(60, 60, 61);
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb {
-    background: orangered;;  
+    background: rgb(60, 60, 61);  
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb:hover {
-    background: orangered;;  
+    background:rgb(60, 60, 61); 
     }
   #rockPlaylist{
       font-size:18px;
@@ -347,7 +337,7 @@ body {
     grid-template-columns: minmax(160px, 1fr) 160px;
   }
   
- 
+  
   .bottomFooter {
     position: absolute;
     right: 0;
@@ -357,4 +347,4 @@ body {
     background-color: #141414;
     text-align: center;
   }
- 
+  

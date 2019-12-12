@@ -241,12 +241,7 @@ color:red;
 }
 
 #rock {
-  /* color: #eeeeee;
-    font-family: "League Gothic", Impact, sans-serif;
-    line-height: 0.5em;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 0px 0px 6px ; */
+
   margin-right: 530px;
   position: relative;
   display: inline-block;
@@ -280,12 +275,7 @@ color:red;
 #hiphop {
   margin-left: 0px;
   margin-top: 0px;
-  /* color: #eeeeee;
-    font-family: "League Gothic", Impact, sans-serif;
-    line-height: 0.5em;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 0px 0px 6px ; */
+
   margin-right: 530px;
   position: relative;
   display: inline-block;
@@ -456,7 +446,6 @@ color:red;
 }
 
 .forBlur6:hover {
-  webkit-filter: blur(4px);
   -webkit-filter: blur(4px);
           filter: blur(4px);
 }
