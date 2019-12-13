@@ -241,65 +241,66 @@ body {
   }
   
   
-  #s1:hover{
+  #s31:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s2:hover{
+  #s32:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s3:hover{
+  #s33:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s4:hover{
+  #s34:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s5:hover{
+  #s35:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s6:hover{
+  #s36:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s7:hover{
+  #s37:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s8:hover{
+  #s38:hover{
   color:rgb(0, 0, 0);
   outline-offset: -1px;
   background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s9:hover{
+  #s39:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
-  #s10:hover{
+  #s40:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
     background-color:rgba(37, 1, 104, 0.404) ;
   }
   #rightSide{
+    position: relative;
       color:white;
-      margin-left: 80px;
+      margin-left: 240px;
       margin-top: 20px;
       margin-bottom: 200px;
-      margin-right:10px;
-  
+      margin-right:50px;
+
       border: none;
-  
+
     font: 24px/36px sans-serif;
     width: 800px;
     height: 470px;

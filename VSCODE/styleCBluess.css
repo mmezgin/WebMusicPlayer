@@ -1,6 +1,6 @@
 body {  
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(14,101,0,1) 116%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(94,94,94,1) 116%);
     margin: 40px;
   }
   
@@ -241,55 +241,55 @@ body {
   }
   
   
-  #s21:hover{
+  #s51:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s22:hover{
+  #s52:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s23:hover{
+  #s53:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s24:hover{
+  #s54:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s25:hover{
+  #s55:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s26:hover{
+  #s56:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s27:hover{
+  #s57:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s28:hover{
+  #s58:hover{
   color:rgb(0, 0, 0);
   outline-offset: -1px;
-  background-color:rgba(8, 236, 0, 0.404) ;
+  background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s29:hover{
+  #s59:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
-  #s30:hover{
+  #s60:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(65, 65, 65, 0.404) ;
   }
   #rightSide{
     position: relative;
@@ -312,17 +312,17 @@ body {
     }
     
     ::-webkit-scrollbar-track {
-    border: 1px solid rgb(0, 112, 24);
+    border: 1px solid rgb(60, 60, 61);
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb {
-    background: rgb(0, 112, 24);
+    background: rgb(60, 60, 61);  
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb:hover {
-    background:rgb(0, 112, 24);
+    background:rgb(60, 60, 61); 
     }
   #rockPlaylist{
       font-size:18px;

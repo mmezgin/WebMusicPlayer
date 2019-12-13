@@ -1,6 +1,6 @@
 body {  
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(14,101,0,1) 116%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 11%, rgba(102,8,88,1) 116%);
     margin: 40px;
   }
   
@@ -241,70 +241,70 @@ body {
   }
   
   
-  #s21:hover{
+  #s41:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s22:hover{
+  #s42:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s23:hover{
+  #s43:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s24:hover{
+  #s44:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s25:hover{
+  #s45:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s26:hover{
+  #s46:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s27:hover{
+  #s47:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s28:hover{
+  #s48:hover{
   color:rgb(0, 0, 0);
   outline-offset: -1px;
-  background-color:rgba(8, 236, 0, 0.404) ;
+  background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s29:hover{
+  #s49:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
-  #s30:hover{
+  #s50:hover{
     color:rgb(0, 0, 0);
     outline-offset: -1px;
-    background-color:rgba(8, 236, 0, 0.404) ;
+    background-color:rgba(190, 10, 79, 0.404) ;
   }
   #rightSide{
     position: relative;
-    color:white;
-    margin-left: 240px;
-    margin-top: 20px;
-    margin-bottom: 200px;
-    margin-right:50px;
+      color:white;
+      margin-left: 240px;
+      margin-top: 20px;
+      margin-bottom: 200px;
+      margin-right:50px;
 
-    border: none;
+      border: none;
 
-  font: 24px/36px sans-serif;
-  width: 800px;
-  height: 470px;
-  overflow: scroll;
+    font: 24px/36px sans-serif;
+    width: 800px;
+    height: 470px;
+    overflow: scroll;
   }
   ::-webkit-scrollbar {
     width: 12px;
@@ -312,17 +312,17 @@ body {
     }
     
     ::-webkit-scrollbar-track {
-    border: 1px solid rgb(0, 112, 24);
+    border: 1px solid rgb(112, 0, 69);
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb {
-    background: rgb(0, 112, 24);
+    background: rgb(112, 0, 69);
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb:hover {
-    background:rgb(0, 112, 24);
+    background:rgb(112, 0, 69);
     }
   #rockPlaylist{
       font-size:18px;

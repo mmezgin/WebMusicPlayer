@@ -102,8 +102,7 @@ body {
   #logo {
     -webkit-animation: color-change 1s infinite;
     animation: color-change 1s infinite;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
+   
   }
   
   @-webkit-keyframes color-change {
@@ -215,7 +214,7 @@ body {
   }
   #textRock{
       color:rgb(255, 255, 255);
-      font-size: 24px;
+      font-size: 20px;
       font-style: oblique;
 
   }
@@ -225,6 +224,9 @@ body {
      color:white;
      text-align: right;
      font-size: 18px;
+ }
+ #h3{
+   margin-inline-end: 20px;
  }
 .ss{
   
@@ -305,11 +307,12 @@ body {
   background-color:rgba(255, 0, 0, 0.404) ;
 }
   #rightSide{
+      position: relative;
       color:white;
-      margin-left: 80px;
+      margin-left: 240px;
       margin-top: 20px;
       margin-bottom: 200px;
-      margin-right:10px;
+      margin-right:50px;
 
       border: none;
 
