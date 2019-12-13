@@ -96,11 +96,14 @@ body {
     padding-left: 40px;
     font-size: 100px;
     animation:animate 15s linear infinite;
+   
   }
   
   #logo {
     -webkit-animation: color-change 1s infinite;
     animation: color-change 1s infinite;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
   }
   
   @-webkit-keyframes color-change {

@@ -21,11 +21,11 @@ $num = mysqli_num_rows($result);
 if($num == 1){
    
     $_SESSION['user'] = $username;
-    header('Location: http://localhost/mert/VSCODE/main2.php');
+    header('Location: http://localhost/mert/VSCODE/main2.html');
 
 }else{
     echo "Wrong Username or Password. You will be redirecting...";
-    header( "refresh:4;url=http://localhost/mert/VSCODE/main.php" );
+    header( "refresh:4;url=http://localhost/mert/VSCODE/main.html" );
 }
     
 
@@ -54,7 +54,7 @@ else{
     $reg = "insert into users(username,password) values ('$name','$pass')";
     mysqli_query($con,$reg);
     echo "Username is in already use, Please select diffrent. You will be redirecting...";
-    header( "refresh:5;url=http://localhost/mert/VSCODE/main.php" );
+    header( "refresh:5;url=http://localhost/mert/VSCODE/main.html" );
 }
     
 }
