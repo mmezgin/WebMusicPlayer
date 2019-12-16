@@ -537,4 +537,88 @@ body {
 
 }
 
+#rightSide{
+  color:white;
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  margin-right:0px;
+
+  border: none;
+
+font: 18px/26px sans-serif;
+width: 600px;
+height: 470px;
+overflow: scroll;
+}
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid orange;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: orange;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:rgb(255, 51, 0); 
+
+}
+#s61:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s62:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s63:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s64:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s65:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s66:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s67:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s68:hover{
+color:rgb(0, 0, 0);
+outline-offset: -1px;
+background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s69:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s70:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+
   /*# sourceMappingURL=style2.css.map */
