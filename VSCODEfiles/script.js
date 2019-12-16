@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var i = -1;
-  var items = ["","","","",""];
+  var items = [];
 
   $("#a1").click(function(){
       $("#log").toggle("swing");
@@ -745,6 +745,25 @@ items[i] = text[1];
 var arr = items.join('\r\n');
 console.log(arr)
 $('span').html(arr);
+console.log(i);
+
+})
+
+
+$('.checkout').click(function(){
+var k = 0;
+
+while(k<i+1){
+ 
+$.post("save.php",{
+  array: items[k]
+  
+});
+k++;
+
+}
+console.log(k);
+
 
 
 })
