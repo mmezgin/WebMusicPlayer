@@ -1061,5 +1061,3858 @@ if(this.readyState == 4 && this.status == 200){
 
 })
 
+$('#songName51').click(function () {
+
+  var t = $('#songName51').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  
+});
+
+$('#songName52').click(function() {
+  var t = $('#songName52').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName53').click(function() {
+
+  var t = $('#songName53').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName54').click(function() {
+
+  var t = $('#songName54').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName55').click(function() {
+
+  var t = $('#songName55').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName56').click(function() {
+
+  var t = $('#songName56').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName57').click(function() {
+
+  var t = $('#songName57').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName58').click(function() {
+
+  var t = $('#songName58').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName59').click(function() {
+
+  var t = $('#songName59').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+$('#songName60').click(function() {
+
+  var t = $('#songName60').text().toLowerCase();
+
+  if(t.includes("paranoid")){
+    var src="music/paranoid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("riders")){
+    var src="music/riders.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("money")){
+    var src="music/money.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ironman")){
+    var src="music/ironman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("t.n.t")){
+    var src="music/tnt.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("california")){
+    var src="music/california.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("white room")){
+    var src="music/whiteroom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("duman")){
+    var src="music/duman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("immigrant")){
+    var src="music/immigrant.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("back")){
+    var src="music/backinblack.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("dark")){
+    var src="music/darklight.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ghostface")){
+    var src="music/ghostface.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("sad!")){
+    var src="music/sad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("panda")){
+    var src="music/panda.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("mercy")){
+    var src="music/mercy.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("venom")){
+    var src="music/venom.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nefret")){
+    var src="music/nefret.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("goosebumps")){
+    var src="music/goose.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("lucid")){
+    var src="music/lucid.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("gucci")){
+    var src="music/pump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("crazy")){
+    var src="music/crazyblues.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ash")){
+    var src="music/anima.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("devil")){
+    var src="music/devilgot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all")){
+    var src="music/bocarter.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("born")){
+    var src="music/borntodie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("cross")){
+    var src="music/crossroad.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("guitar")){
+    var src="music/guitarrag.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("some")){
+    var src="music/someday.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("boogie")){
+    var src="music/johnlee.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("all your love")){
+    var src="music/allyourlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("alfie")){
+    var src="music/alfie.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ciaccona")){
+    var src="music/ciaccona.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("crystal")){
+    var src="music/crystal.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("faithful")){
+    var src="music/faithfull.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("je veux")){
+    var src="music/zaz.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("seeds")){
+    var src="music/seeds.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the")){
+    var src="music/wateriswide.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("touching")){
+    var src="music/taintedlove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vashkar")){
+    var src="music/vashkar.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("vignette")){
+    var src="music/vignette.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+
+  //----------------------------------------------------
+
+  if(t.includes("batshit")){
+    var src="music/batshit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("calma")){
+    var src="music/calma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("dance")){
+    var src="music/dancemonkey.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("in my mind")){
+    var src="music/inmymind.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("jump")){
+    var src="music/jump.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one kiss")){
+    var src="music/onekiss.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("one thing right")){
+    var src="music/onethingright.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ride")){
+    var src="music/rideit.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("roses")){
+    var src="music/roses.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("the spectre")){
+    var src="music/spectre.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+
+  //----------------------------------------------------
+
+  if(t.includes("sic")){
+    var src="music/sic.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("afraid")){
+    var src="music/shoot.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("coma")){
+    var src="music/coma.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("death")){
+    var src="music/dieshard.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("enter sandman")){
+    var src="music/sandman.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("love me forever")){
+    var src="music/lovemeforever.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("nemesis")){
+    var src="music/nemesis.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("ohne dich")){
+    var src="music/ohne.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("this i love")){
+    var src="music/thisilove.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  if(t.includes("toxicity")){
+    var src="music/toxicity.mp3";
+    document.getElementById("player").setAttribute('src',src);
+    document.getElementById("player").load();
+    document.getElementById("player").play();
+  }
+  
+})
+
+
+
+
 
 });
