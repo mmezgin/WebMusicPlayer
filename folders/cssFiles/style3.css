@@ -1,0 +1,624 @@
+body {
+    /*
+  background: rgb(98,39,137);
+  background: linear-gradient(90deg, rgba(98,39,137,1) 28%, rgba(255,18,55,1) 100%);*/
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(black), to(#595151));
+    background: linear-gradient(90deg, black 0%, #595151 100%);
+    margin: 40px;
+  }
+  
+  #leftSide {
+    border-style: solid;
+    border-right-width: 150px;
+    text-align: right;
+    text-align: bottom;
+    margin-right: 1200px;
+    padding-bottom: 1000px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 6000px;
+    color: #1b1b1b;
+  }
+  
+  .leftTexts {
+    color: #0f0f0f;
+    margin-top: 75px;
+    margin-left: 20px;
+  }
+  
+  .cart {
+    color: #960196;
+  }
+  
+  .cart:hover {
+    color: #960196;
+    color: #7c0072;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 0px 6px;
+  }
+  
+  .hot {
+    color: red;
+  }
+  
+  .hot:hover {
+    /*   color:white;*/
+    color: red;
+    color: #aa0000;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 0px 6px;
+  }
+  
+  .trending {
+    color: orangered;
+  }
+  
+  .trending:hover {
+    top: 0px;
+    color: orangered;
+    color: #aa5200;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 0px 6px;
+  }
+  
+  #a1 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #a1:hover {
+    color: black;
+  }
+  
+  #a2 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #a2:hover {
+    color: black;
+  }
+  
+  .icon h1 {
+    /*
+      padding-top:50px;
+      padding-left:40px;
+      color:white;
+      color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ;
+      font-size: 100px;
+      background: linear-gradient(to right,#f00,#ff0,#0ff,0f0,#00f);
+      //////////////////////////////*/
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 100px;
+    /*  color:rgba(225,225,255,.1);
+      background-image: url(textShifting.jpg);
+      background-repeat:repeat-x ;
+      background-clip:text;
+  color:red;
+   color: #aa0000;
+   font-family: "League Gothic", Impact, sans-serif;
+   line-height: 0.5em;
+   letter-spacing: 0.02em;
+   text-shadow: 0px 0px 6px ;
+  
+  
+  
+  
+      animation:animate 15s linear infinite;*/
+  }
+  
+  #logo {
+    -webkit-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+  }
+  
+  @-webkit-keyframes color-change {
+    0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+    50% {
+      color: blue;
+      color: #1f00aa;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+    100% {
+      color: yellow;
+      color: #c7b518;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: red;
+      color: #aa0000;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+    50% {
+      color: blue;
+      color: #1f00aa;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+    100% {
+      color: yellow;
+      color: #c7b518;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-shadow: 0px 0px 6px;
+    }
+  }
+  
+  .icon {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #first {
+    border-style: solid;
+    color: white;
+    margin-left: 350px;
+    margin-right: 865px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  
+  #mid {
+    border-style: solid;
+    color: #910000;
+    margin-left: 900px;
+    margin-right: 645px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  
+  #last {
+    border-style: solid;
+    color: #009191;
+    margin-left: 900px;
+    margin-right: 645px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  
+  #main {
+    height: 600px;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #666;
+  }
+  
+  .divs {
+    
+    display: inline-block;
+    height: 390px;
+    width: 250px;
+    margin: 10px;
+    color: #FFF;
+  }
+  
+  #rock {
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #rockText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+    margin-left: 75px;
+  }
+  
+  .forBlur:hover {
+    
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  #hiphop {
+    margin-left: 0px;
+    margin-top: 0px;
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #hiphopText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: black;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+    margin-left: 65px;
+  }
+  
+  .forBlur2:hover {
+   
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  #pop {
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #popText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: #64004b;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .forBlur3:hover {
+   
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  #classic {
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #classicText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+    margin-left: 45px;
+  }
+  
+  .forBlur4:hover {
+    
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  #edm {
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #edmText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: black;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .forBlur5:hover {
+    
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  #metal {
+    /* color: #eeeeee;
+      font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ; */
+    margin-right: 530px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #metalText {
+    text-align: center;
+    padding: center;
+    font-size: 30px;
+    color: white;
+    font-style: oblique;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .forBlur6:hover {
+   
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+  
+  .wrapper {
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 865px;
+    margin-top: 430px;
+    margin-bottom: 50px;
+    bottom: 0;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1px;
+    -ms-grid-columns: minmax(180px, 1fr) 180px 180px 180px 180px 180px;
+        grid-template-columns: minmax(180px, 1fr) 180px 180px 180px 180px 180px;
+  
+  }
+  
+  .box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .bottomFooter {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #141414;
+    text-align: center;
+  }
+
+  .popup{
+    display: none;
+    position:absolute;
+    top:0px;
+    left:150px;
+    margin:100px auto;
+    width:300px;
+    height:300px;
+    font-family:verdana;
+    font-size:13px;
+    padding:10px;
+    background-color:rgb(240,240,240);
+    border:2px solid grey;
+    z-index:100000000000000000;
+    }
+    
+.cancel{
+    display:relative;
+    cursor:pointer;
+    margin:0;
+    float:right;
+    height:10px;
+    width:14px;
+    padding:0 0 5px 0;
+    background-color:red;
+    text-align:center;
+    font-weight:bold;
+    font-size:11px;
+    color:white;
+    border-radius:3px;
+    z-index:100000000000000000;
+    }
+
+.cancel:hover{
+    background:rgb(255,50,50);
+    }
+
+
+.checkout{
+  display: relative;
+  cursor:pointer;
+  margin:0;
+  float:right;
+  bottom:0;
+  position: absolute;
+  margin-left: 250px;
+
+}
+
+#rightSide{
+  color:white;
+  margin-left: 400px;
+  margin-top: 120px;
+  margin-bottom: 200px;
+  margin-right:0px;
+
+  border: none;
+
+font: 18px/26px sans-serif;
+width: 800px;
+height: 370px;
+overflow: scroll;
+}
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid orange;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: orange;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:rgb(255, 51, 0); 
+
+}
+#s61:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s62:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s63:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s64:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s65:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s66:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s67:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s68:hover{
+color:rgb(0, 0, 0);
+outline-offset: -1px;
+background-color:rgba(32, 32, 32, 0.404) ;
+}
+#s69:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(65, 65, 65, 0.404) ;
+}
+#s70:hover{
+  color:rgb(0, 0, 0);
+  outline-offset: -1px;
+  background-color:rgba(32, 32, 32, 0.404) ;
+}
+
+  /*# sourceMappingURL=style2.css.map */
