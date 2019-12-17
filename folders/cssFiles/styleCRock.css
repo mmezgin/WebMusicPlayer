@@ -375,9 +375,28 @@ body {
     font-family:verdana;
     font-size:13px;
     padding:10px;
-    background-color:rgb(240,240,240);
-    border:2px solid grey;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(120,0,0,1) 66%);
+    color:white;
+    
     z-index:100000000000000000;
+    }
+    .checkout{
+      display: relative;
+      cursor:pointer;
+      margin:0;
+      float:right;
+      bottom:0;
+      right: 0;
+      position: absolute;
+      background-color:red;
+      text-align:center;
+      font-weight:bold;
+      font-size:11px;
+      color:white;
+      border-radius:3px;
+      
+    
     }
     
 .cancel{
@@ -402,14 +421,3 @@ body {
     }
 
 
-.checkout{
-  display: relative;
-  cursor:pointer;
-  margin:0;
-  float:right;
-  bottom:0;
-  position: absolute;
-  margin-left: 250px;
-  background-color:green;
-
-}
