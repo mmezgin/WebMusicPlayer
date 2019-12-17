@@ -322,7 +322,7 @@ body {
     }
     
     ::-webkit-scrollbar-thumb:hover {
-    background:rgb(0, 112, 24);
+    background:rgb(4, 148, 35);
     }
   #rockPlaylist{
       font-size:18px;

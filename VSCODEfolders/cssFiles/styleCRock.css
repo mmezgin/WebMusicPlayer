@@ -332,12 +332,12 @@ body {
     }
     
     ::-webkit-scrollbar-thumb {
-    background: orangered;;  
+    background: orangered;  
     border-radius: 10px;
     }
     
     ::-webkit-scrollbar-thumb:hover {
-    background: orangered;;  
+    background: rgb(221, 116, 78);  
     }
   #rockPlaylist{
       font-size:18px;
