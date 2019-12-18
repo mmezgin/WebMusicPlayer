@@ -313,12 +313,7 @@ body {
   }
   
   #pop {
-    /* color: #eeeeee;
-      font-family: "League Gothic", Impact, sans-serif;
-      line-height: 0.5em;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-      text-shadow: 0px 0px 6px ; */
+   
     margin-right: 530px;
     position: relative;
     display: inline-block;
@@ -488,67 +483,122 @@ body {
     text-align: center;
   }
 
-  .popup{
-    display: none;
-    position:absolute;
-    top:0px;
-    left:150px;
-    margin:100px auto;
-    width:300px;
-    height:300px;
-    font-family:verdana;
-    font-size:13px;
-    padding:10px;
-    background-color:rgb(240,240,240);
-    border:2px solid grey;
-    z-index:100000000000000000;
-    }
+
     
-.cancel{
-    display:relative;
-    cursor:pointer;
-    margin:0;
-    float:right;
-    height:10px;
-    width:14px;
-    padding:0 0 5px 0;
-    background-color:red;
-    text-align:center;
-    font-weight:bold;
-    font-size:11px;
-    color:white;
-    border-radius:3px;
-    z-index:100000000000000000;
-    }
+    .popup{
+      display: none;
+      position:absolute;
+      top:0px;
+      left:150px;
+      margin:100px auto;
+      width:300px;
+      height:300px;
+      font-family:verdana;
+      font-size:13px;
+      padding:10px;
+      background: rgb(0,0,0);
+      background: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(120,0,0,1) 66%);
+      color:white;
+      
+      z-index:100000000000000000;
+      }
+      .checkout{
+        display: relative;
+        cursor:pointer;
+        margin:0;
+        float:right;
+        bottom:0;
+        right: 0;
+        position: absolute;
+        background-color:red;
+        text-align:center;
+        font-weight:bold;
+        font-size:11px;
+        color:white;
+        border-radius:3px;
+        
+      
+      }
 
-.cancel:hover{
-    background:rgb(255,50,50);
-    }
+      .save{
+        display: relative;
+        cursor:pointer;
+        margin:0;
+        float:left;
+        bottom:0;
+        
+        position: absolute;
+        background-color:green;
+        text-align:center;
+        font-weight:bold;
+        font-size:11px;
+        color:white;
+        border-radius:3px;
+        left:40px
 
 
-.checkout{
-  display: relative;
-  cursor:pointer;
-  margin:0;
-  float:right;
-  bottom:0;
-  position: absolute;
-  margin-left: 250px;
+      }
 
+      .load{
+        display: relative;
+        cursor:pointer;
+        margin:0;
+        float:left;
+        bottom:0;
+        
+        position: absolute;
+        background-color:red;
+        text-align:center;
+        font-weight:bold;
+        font-size:11px;
+        color:white;
+        border-radius:3px;
+
+      }
+      
+  .cancel{
+      display:relative;
+      cursor:pointer;
+      margin:0;
+      float:right;
+      height:10px;
+      width:14px;
+      padding:0 0 5px 0;
+      background-color:red;
+      text-align:center;
+      font-weight:bold;
+      font-size:11px;
+      color:white;
+      border-radius:3px;
+      z-index:100000000000000000;
+      }
+  
+  .cancel:hover{
+      background:rgb(255,50,50);
+      }
+#get2{
+  color:rgb(255, 255, 255);
+  margin-top: 0px;
+  font-size: 35px;
+  margin-left: 650px;
+  font-family: "League Gothic", Impact, sans-serif;
+      line-height: 0.5em;
+      letter-spacing: 0.02em;
+     
+      text-shadow:0px 00px 100px ;
 }
-
 #rightSide{
   color:white;
-  margin-left: 500px;
-  margin-top: 20px;
+  margin-left: 400px;
+  margin-top: 50px;
   margin-bottom: 200px;
   margin-right:0px;
 
   border: none;
 
 font: 18px/26px sans-serif;
-width: 600px;
-height: 470px;
+width: 800px;
+height: 370px;
 overflow: scroll;
 }
 ::-webkit-scrollbar {
